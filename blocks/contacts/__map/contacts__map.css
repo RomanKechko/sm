@@ -1,0 +1,14 @@
+.contacts__map {
+  display: none;
+  position: absolute;
+  background: #d9d9d9c9;
+  text-decoration: none;
+  height: 29px;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: center;
+  bottom: 100%;
+  color: #16224D;
+  right: 0;
+  font-size: 14px;
+}

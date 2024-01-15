@@ -1,0 +1,8 @@
+.block_contacts {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1120px;
+  height: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}

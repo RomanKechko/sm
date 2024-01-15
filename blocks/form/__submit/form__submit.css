@@ -1,0 +1,18 @@
+.form__submit {
+  align-self: end;
+  background-color: #ffffff00;
+  border-radius: 30px;
+  border: solid 1px #fff;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.form__submit:hover {
+  transform: scale(1.05);
+}
+
+.form__submit:active {
+  transform: scale(0.95);
+}

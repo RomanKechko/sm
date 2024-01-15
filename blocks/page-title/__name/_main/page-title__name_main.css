@@ -1,0 +1,9 @@
+.page-title__name_main {
+  font-size: 101px;
+}
+
+@media (max-width: 975px) {
+  .page-title__name_main {
+    font-size: 61px;
+  }
+}

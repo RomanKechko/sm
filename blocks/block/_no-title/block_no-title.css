@@ -1,0 +1,9 @@
+.block_no-title {
+  padding-top: 159px;
+}
+
+@media (max-width: 975px) {
+  .block_no-title {
+    padding-top: 20px;
+  }
+}

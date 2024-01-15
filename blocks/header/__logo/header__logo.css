@@ -1,0 +1,18 @@
+.header__logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #49aaff;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .header__logo {
+    font-size: 17px;
+  }
+}

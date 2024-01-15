@@ -1,0 +1,9 @@
+.alert__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 0 20px;
+}

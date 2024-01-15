@@ -1,0 +1,5 @@
+@media (max-width: 975px) {
+  .header-mobile__logo {
+    height: 50px;
+  }
+}

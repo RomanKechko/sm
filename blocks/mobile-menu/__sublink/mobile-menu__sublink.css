@@ -1,0 +1,10 @@
+@media (max-width: 975px) {
+  .mobile-menu__sublink {
+    display: block;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

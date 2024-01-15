@@ -1,0 +1,22 @@
+.contacts__item {
+  box-sizing: border-box;
+  flex-basis: calc(50% - 8px);
+  border: 1px solid #FFFFFF;
+  margin-bottom: 16px;
+  text-align: center;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 165px;
+}
+
+@media (max-width: 975px) {
+  .contacts__item {
+    flex-basis: 100%;
+    margin-right: 0;
+    height: 90px;
+    padding: 10px;
+  }
+}

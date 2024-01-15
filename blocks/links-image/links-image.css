@@ -1,0 +1,110 @@
+.block__printed-circuit {
+  width: 43%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  gap: 0 20px;
+}
+.block__printed-circuit_link {
+  transition: 1s;
+}
+.block__printed-circuit_link:hover {
+  transform: scale(1.1);
+}
+.block__printed-circuit_image {
+  width: 100%;
+  height: 90%;
+}
+
+.block__parts-production {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  gap: 5px;
+  width: 60%;
+}
+
+.block__parts-production_link {
+  transition: 1s;
+}
+.block__parts-production_link:hover {
+  transform: scale(1.1);
+}
+
+.block__parts-production_image {
+  max-width: 265px;
+  height: 292px;
+  image-rendering: pixelated;
+}
+
+.block__laboratory-tests {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  gap: 5px;
+  width: 60%;
+}
+.block__laboratory-tests_link {
+  transition: 1s;
+}
+.block__laboratory-tests_link:hover {
+  transform: scale(1.1);
+}
+.block__laboratory-tests_image {
+  max-width: 230px;
+  height: 282px;
+  image-rendering: pixelated;
+}
+
+.block__personnel-selection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 80%;
+}
+.block__personnel-selection_link {
+  transition: 1s;
+}
+.block__personnel-selection_link:hover {
+  transform: scale(1.1);
+}
+.block__personnel-selection_image {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .block__printed-circuit {
+    width: 80%;
+  }
+
+  .block__parts-production_image {
+    max-width: 180px;
+    height: 210px;
+  }
+  .block__laboratory-tests_image {
+    max-width: 172px;
+    height: 210px;
+  }
+  .block__personnel-selection_image {
+    width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .block__parts-production {
+    flex-direction: column;
+  }
+  .block__parts-production_link {
+    margin: 0 auto;
+  }
+  .block__laboratory-tests {
+    flex-direction: column;
+  }
+  .block__laboratory-tests_link {
+    margin: 0 auto;
+  }
+  .block__personnel-selection_image {
+    width: 100%;
+  }
+}

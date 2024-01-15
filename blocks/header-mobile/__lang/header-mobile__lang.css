@@ -1,0 +1,13 @@
+@media (max-width: 975px) {
+  .header-mobile__lang {
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }
+
+  .header-mobile__lang:first-of-type {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+.page-title__subname_main {
+  font-size: 37px;
+}
+
+@media (max-width: 975px) {
+  .page-title__subname_main {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+}

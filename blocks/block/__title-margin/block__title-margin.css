@@ -1,0 +1,5 @@
+@media (max-width: 975px) {
+  .block__title-margin{
+    display: none;
+  }
+}

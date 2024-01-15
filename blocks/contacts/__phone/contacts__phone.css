@@ -1,0 +1,21 @@
+.contacts__phone {
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.contacts__phone:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 975px) {
+  .contacts__phone {
+    font-size: 11px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    transition: all 1s;
+    text-decoration: none;
+  }
+}

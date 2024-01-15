@@ -1,0 +1,9 @@
+.block__title_no-indent {
+  padding: 53px 40px;
+}
+
+@media (max-width: 1500px) {
+  .block__title_no-indent {
+    padding: 40px 40px;
+  }
+}

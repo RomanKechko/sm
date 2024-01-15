@@ -1,0 +1,24 @@
+.arrow-down {
+  background: url('/images/down-arrow.svg') no-repeat center center;
+  cursor: pointer;
+  background-size: contain;
+  width: 22px;
+  height: 18px;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -11px;
+  animation: jumpArrow 1.5s infinite;
+}
+
+@keyframes jumpArrow {
+  0% {
+      bottom: 25px;
+  }
+  50% {
+      bottom: 40px;
+  }
+  100% {
+      bottom: 25px;
+  }
+}

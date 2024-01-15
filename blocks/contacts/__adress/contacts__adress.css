@@ -1,0 +1,18 @@
+.contacts__adress {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.contacts__adress:hover .contacts__map {
+  display: flex;
+}
+
+@media (max-width: 975px) {
+  .contacts__adress {
+    font-size: 11px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+  }
+}
