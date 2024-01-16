@@ -1086,7 +1086,7 @@ eval("module.exports = \"data:application/font-woff;charset=utf-8;base64, d09GRg
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/4f9da545c87d914caae5.jpg\";\n\n//# sourceURL=webpack://page2/./images/background.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/background.jpg\";\n\n//# sourceURL=webpack://page2/./images/background.jpg?");
 
 /***/ }),
 
@@ -1096,7 +1096,7 @@ eval("module.exports = __webpack_require__.p + \"assets/4f9da545c87d914caae5.jpg
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/d6dd74773f1380024854.svg\";\n\n//# sourceURL=webpack://page2/./images/down-arrow.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/down-arrow.svg\";\n\n//# sourceURL=webpack://page2/./images/down-arrow.svg?");
 
 /***/ }),
 
@@ -1106,7 +1106,7 @@ eval("module.exports = __webpack_require__.p + \"assets/d6dd74773f1380024854.svg
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/07f767b757af3f4581e1.svg\";\n\n//# sourceURL=webpack://page2/./images/left-arrow.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/left-arrow.svg\";\n\n//# sourceURL=webpack://page2/./images/left-arrow.svg?");
 
 /***/ }),
 
@@ -1116,7 +1116,7 @@ eval("module.exports = __webpack_require__.p + \"assets/07f767b757af3f4581e1.svg
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/3484587a349e715da633.svg\";\n\n//# sourceURL=webpack://page2/./images/right-arrow.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/right-arrow.svg\";\n\n//# sourceURL=webpack://page2/./images/right-arrow.svg?");
 
 /***/ }),
 
@@ -1126,7 +1126,7 @@ eval("module.exports = __webpack_require__.p + \"assets/3484587a349e715da633.svg
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/52286431b7096172c289.svg\";\n\n//# sourceURL=webpack://page2/./images/top-arrow.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/top-arrow.svg\";\n\n//# sourceURL=webpack://page2/./images/top-arrow.svg?");
 
 /***/ }),
 
@@ -1136,7 +1136,7 @@ eval("module.exports = __webpack_require__.p + \"assets/52286431b7096172c289.svg
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/871b541b762db1777c78.woff\";\n\n//# sourceURL=webpack://page2/./vendor/fonts/tilda-sans_vf.woff?");
+eval("module.exports = __webpack_require__.p + \"assets/tilda-sans_vf.woff\";\n\n//# sourceURL=webpack://page2/./vendor/fonts/tilda-sans_vf.woff?");
 
 /***/ }),
 
@@ -1146,7 +1146,7 @@ eval("module.exports = __webpack_require__.p + \"assets/871b541b762db1777c78.wof
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"assets/d726cb6032d6af6310cb.woff2\";\n\n//# sourceURL=webpack://page2/./vendor/fonts/tilda-sans_vf.woff2?");
+eval("module.exports = __webpack_require__.p + \"assets/tilda-sans_vf.woff2\";\n\n//# sourceURL=webpack://page2/./vendor/fonts/tilda-sans_vf.woff2?");
 
 /***/ })
 
