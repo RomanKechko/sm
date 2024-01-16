@@ -71,7 +71,7 @@
 .block__personnel-selection_image {
   display: flex;
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
 }
 
 @media (max-width: 767px) {
