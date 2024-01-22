@@ -11,10 +11,25 @@ module.exports = {
     assetModuleFilename: "assets/[name][ext][query]",
     clean: true,
   },
+  /* Новое */
+  entry: {
+    main: "./src/index.js",
+    politics: "./src/politics.js",
+  },
+  /* Новое */
   plugins: [
     new HtmlWebpackPlugin({
       template: "./index.html",
+      /* новое */
+      chunks: ["main"],
+      filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./politics.html",
+      chunks: ["politics"],
+      filename: "politics.html",
+    }),
+    /* новое */
   ],
   module: {
     rules: [

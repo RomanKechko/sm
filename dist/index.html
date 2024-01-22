@@ -15,21 +15,22 @@
 
   <body class="body">
     <div class="page fullpage-wrapper" id="page">
-      <div class="header">
-        <a class="header__logo" href="/"> SMARTCOMPLETION </a>
-
-        <ul class="header__menu">
-          <li class="header__item">
-            <a href="#about" class="header__link"> О КОМПАНИИ </a>
-          </li>
-          <li class="header__item">
-            <a href="#structure" class="header__link"> УСЛУГИ </a>
-          </li>
-          <li class="header__item">
-            <a href="#contacts" class="header__link"> КОНТАКТЫ </a>
-          </li>
-        </ul>
-      </div>
+      <header class="header">
+        <a class="header__logo" href="/sm/index.html"> SMARTCOMPLETION </a>
+        <nav>
+          <ul class="header__menu">
+            <li class="header__item">
+              <a href="#about" class="header__link"> О КОМПАНИИ </a>
+            </li>
+            <li class="header__item">
+              <a href="#structure" class="header__link"> УСЛУГИ </a>
+            </li>
+            <li class="header__item">
+              <a href="#contacts" class="header__link"> КОНТАКТЫ </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <div class="header-mobile">
         <a class="header__logo" href="/"> SMARTCOMPLETION </a>
@@ -40,129 +41,145 @@
         </div>
       </div>
 
-      <div class="mobile-menu">
-        <ul class="mobile-menu__list">
-          <li class="mobile-menu__item">
-            <a href="#about" class="mobile-menu__link" data-to="2">
-              О КОМПАНИИ
-            </a>
-          </li>
-          <li class="mobile-menu__item">
-            <a href="#structure" class="mobile-menu__link" data-to="3">
-              УСЛУГИ
-            </a>
-            <ul class="mobile-menu__sublist">
-              <li class="mobile-menu__subitem">
-                <a href="#engineering" class="mobile-menu__sublink" data-to="4">
-                  РАЗРАБОТКА, ПРОИЗВОДСТВО,ОБРАТНЫЙ ИНЖИНИРИНГ
-                </a>
-                <ul class="mobile-menu__sublist">
-                  <li>
-                    <a
-                      href="#mechanical-engineering"
-                      class="mobile-menu__sublink"
-                      data-to="5"
-                    >
-                      МАШИНОСТРОИТЕЛЬНЫЙ ИНЖИНИРИНГ
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#electrical-engineering"
-                      class="mobile-menu__sublink"
-                      data-to="6"
-                    >
-                      ЭЛЕКТРОТЕХНИЧЕСКИЙ ИНЖИНИРИНГ
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#production-of-parts"
-                      class="mobile-menu__sublink"
-                      data-to="7"
-                    >
-                      ПРОИЗВОДСТВО ДЕТАЛЕЙ ЛЮБОЙ ТИРАЖНОСТИ
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#laboratory"
-                      class="mobile-menu__sublink"
-                      data-to="8"
-                    >
-                      ЛАБОРАТОРНЫЕ ИССЛЕДОВАНИЯ И ЭКСПЕРТИЗА
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="mobile-menu__subitem">
-                <a href="#inspection" class="mobile-menu__sublink" data-to="9">
-                  ИНСПЕКЦИЯ НАПРЯЖЕННОГО СОСТОЯНИЯ МЕТАЛЛА
-                </a>
-              </li>
-              <li class="mobile-menu__subitem">
-                <a href="#expertise" class="mobile-menu__sublink" data-to="10">
-                  НАУЧНО-ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА
-                </a>
-              </li>
-              <li class="mobile-menu__subitem">
-                <a href="#staff" class="mobile-menu__sublink" data-to="11">
-                  ПОДБОР ПЕРСОНАЛА ДЛЯ ЗАКАЗЧИКА
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="mobile-menu__item">
-            <a href="#contacts" class="mobile-menu__link" data-to="12">
-              КОНТАКТЫ
-            </a>
-          </li>
-        </ul>
-        <div class="arrow-top arrow-top_mobile-menu"></div>
-      </div>
+      <header class="mobile-menu">
+        <nav>
+          <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+              <a href="#about" class="mobile-menu__link" data-to="2">
+                О КОМПАНИИ
+              </a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#structure" class="mobile-menu__link" data-to="3">
+                УСЛУГИ
+              </a>
+              <ul class="mobile-menu__sublist">
+                <li class="mobile-menu__subitem">
+                  <a
+                    href="#engineering"
+                    class="mobile-menu__sublink"
+                    data-to="4"
+                  >
+                    РАЗРАБОТКА, ПРОИЗВОДСТВО,ОБРАТНЫЙ ИНЖИНИРИНГ
+                  </a>
+                  <ul class="mobile-menu__sublist">
+                    <li>
+                      <a
+                        href="#mechanical-engineering"
+                        class="mobile-menu__sublink"
+                        data-to="5"
+                      >
+                        МАШИНОСТРОИТЕЛЬНЫЙ ИНЖИНИРИНГ
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#electrical-engineering"
+                        class="mobile-menu__sublink"
+                        data-to="6"
+                      >
+                        ЭЛЕКТРОТЕХНИЧЕСКИЙ ИНЖИНИРИНГ
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#production-of-parts"
+                        class="mobile-menu__sublink"
+                        data-to="7"
+                      >
+                        ПРОИЗВОДСТВО ДЕТАЛЕЙ ЛЮБОЙ ТИРАЖНОСТИ
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#laboratory"
+                        class="mobile-menu__sublink"
+                        data-to="8"
+                      >
+                        ЛАБОРАТОРНЫЕ ИССЛЕДОВАНИЯ И ЭКСПЕРТИЗА
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="mobile-menu__subitem">
+                  <a
+                    href="#inspection"
+                    class="mobile-menu__sublink"
+                    data-to="9"
+                  >
+                    ИНСПЕКЦИЯ НАПРЯЖЕННОГО СОСТОЯНИЯ МЕТАЛЛА
+                  </a>
+                </li>
+                <li class="mobile-menu__subitem">
+                  <a
+                    href="#expertise"
+                    class="mobile-menu__sublink"
+                    data-to="10"
+                  >
+                    НАУЧНО-ТЕХНИЧЕСКАЯ ЭКСПЕРТИЗА
+                  </a>
+                </li>
+                <li class="mobile-menu__subitem">
+                  <a href="#staff" class="mobile-menu__sublink" data-to="11">
+                    ПОДБОР ПЕРСОНАЛА ДЛЯ ЗАКАЗЧИКА
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#contacts" class="mobile-menu__link" data-to="12">
+                КОНТАКТЫ
+              </a>
+            </li>
+          </ul>
+          <div class="arrow-top arrow-top_mobile-menu"></div>
+        </nav>
+      </header>
 
-      <div
+      <section
         class="block block-1 block_main fp-section"
         data-fp-styles="null"
         data-anchor="main"
       >
         <div class="page-title page-title_main wow flipInX">
-          <div class="page-title__name page-title__name_main">SCT</div>
-          <div class="page-title__subname page-title__subname_main">
+          <p class="page-title__name page-title__name_main">SCT</p>
+          <h1 class="page-title__subname page-title__subname_main">
             Нефтегазовый сервис
-          </div>
-          <div class="page-title__years page-title__years_main">
+          </h1>
+          <p class="page-title__years page-title__years_main">
             Создана в 2019 году
-          </div>
+          </p>
         </div>
         <br />
         <div class="arrow-down"></div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-2 fp-section"
         data-fp-styles="null"
         data-anchor="about"
       >
         <div class="page-title wow flipInX">
-          <div class="page-title__name">SCT</div>
-          <div class="page-title__subname">Нефтегазовый сервис</div>
-          <div class="page-title__years">Создана в 2019 году</div>
+          <p class="page-title__name">SCT</p>
+          <p class="page-title__subname">Нефтегазовый сервис</p>
+          <p class="page-title__years">Создана в 2019 году</p>
         </div>
         <br />
         <div class="block__content wow fadeInLeft">
-          <p>
-            Компания &laquo;SCT&raquo; предоставляет уникальный спектр услуг
-            в&nbsp;области производства и&nbsp;нефтегазового сервиса,
-            фокусируясь на&nbsp;актуальных проблематиках отрасли.
-          </p>
-          <p>
-            Вектор компании направлен на&nbsp;решение нестандартных задач,
-            позволяющих значительно повысить безопасность работ,
-            а&nbsp;так&nbsp;же оптимизировать технологические процессы
-            в&nbsp;области строительства скважин и&nbsp;нефтесервиса
-            в&nbsp;целом.
-          </p>
+          <article>
+            <p>
+              Компания &laquo;SCT&raquo; предоставляет уникальный спектр услуг
+              в&nbsp;области производства и&nbsp;нефтегазового сервиса,
+              фокусируясь на&nbsp;актуальных проблематиках отрасли.
+            </p>
+            <p>
+              Вектор компании направлен на&nbsp;решение нестандартных задач,
+              позволяющих значительно повысить безопасность работ,
+              а&nbsp;так&nbsp;же оптимизировать технологические процессы
+              в&nbsp;области строительства скважин и&nbsp;нефтесервиса
+              в&nbsp;целом.
+            </p>
+          </article>
           <div class="photo-slider-wrap" id="photo-slider-1">
             <div class="photo-slider swiper-container">
               <div class="swiper-wrapper">
@@ -318,22 +335,22 @@
           </div>
           <br />
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-3 fp-section"
         data-fp-styles="null"
         data-anchor="structure"
       >
         <div class="page-title wow flipInX">
-          <div class="page-title__name">SCT</div>
-          <div class="page-title__subname">Нефтегазовый сервис</div>
-          <div class="page-title__years">Создана в 2019 году</div>
+          <p class="page-title__name">SCT</p>
+          <p class="page-title__subname">Нефтегазовый сервис</p>
+          <p class="page-title__years">Создана в 2019 году</p>
         </div>
         <br />
         <div class="block__content">
           <br />
-          <div class="nav">
+          <nav class="nav">
             <a href="#engineering" data-to="4" class="nav__item wow fadeInLeft">
               Разработка, производство, обратный инжиниринг
             </a>
@@ -349,11 +366,11 @@
             <a href="#contacts" data-to="11" class="nav__item nav__item_center">
               Контакты
             </a>
-          </div>
+          </nav>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-4 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="engineering"
@@ -361,14 +378,14 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInRight">
           <br />
-          <div class="block__title">
+          <h2 class="block__title">
             Разработка, производство,
             <br />
             обратный инжиниринг
-          </div>
+          </h2>
           <div class="block__content">
             <br />
-            <div class="nav nav_eng">
+            <nav class="nav nav_eng">
               <a
                 href="#mechanical-engineering"
                 data-to="4"
@@ -397,12 +414,12 @@
               >
                 Лабораторные исследования и экспертиза
               </a>
-            </div>
+            </nav>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-5 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="mechanical-engineering"
@@ -410,23 +427,25 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInLeft">
           <br />
-          <div class="block__title">
-            Машиностроительный
-            <br />
-            инжиниринг
-          </div>
-          <p>
-            Опытная команда конструкторов имеет возможность обеспечить
-            реализацию практически любых технических решений и задач заказчика,
-            в виде создания с нуля конструкторской документации на новое изделие
-            или выпуска конструкторской документации на доработку существующего
-            изделия или детали. Наличие в команде технолога, позволяет, при
-            необходимости, адаптировать конструкторскую документацию изделия под
-            фактическое производство заказчика. Конструкторское бюро имеет
-            возможность проведение необходимых силовых, гидравлических,
-            эрозионных расчетов методом конечных элементов в соответствующих
-            программных комплексах.
-          </p>
+          <article>
+            <h2 class="block__title">
+              Машиностроительный
+              <br />
+              инжиниринг
+            </h2>
+            <p>
+              Опытная команда конструкторов имеет возможность обеспечить
+              реализацию практически любых технических решений и задач
+              заказчика, в виде создания с нуля конструкторской документации на
+              новое изделие или выпуска конструкторской документации на
+              доработку существующего изделия или детали. Наличие в команде
+              технолога, позволяет, при необходимости, адаптировать
+              конструкторскую документацию изделия под фактическое производство
+              заказчика. Конструкторское бюро имеет возможность проведение
+              необходимых силовых, гидравлических, эрозионных расчетов методом
+              конечных элементов в соответствующих программных комплексах.
+            </p>
+          </article>
           <div class="photo-slider-wrap" id="photo-slider-3">
             <div class="photo-slider swiper-container">
               <div class="swiper-wrapper">
@@ -482,9 +501,9 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-6 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="electrical-engineering"
@@ -492,16 +511,19 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInRight">
           <br />
-          <div class="block__title">
-            Электротехнический
-            <br />
-            инжиниринг
-          </div>
-          <p>
-            Команда инженеров-электронщиков и программистов способна выполнять
-            различные задачи по созданию нового электротехнического продукта или
-            же производству импортного аналога электротехнического продукта.
-          </p>
+          <article>
+            <h2 class="block__title">
+              Электротехнический
+              <br />
+              инжиниринг
+            </h2>
+            <p>
+              Команда инженеров-электронщиков и программистов способна выполнять
+              различные задачи по созданию нового электротехнического продукта
+              или же производству импортного аналога электротехнического
+              продукта.
+            </p>
+          </article>
           <div class="block__printed-circuit">
             <a
               href="assets/1.png"
@@ -545,9 +567,9 @@
           <div class="swiper-pagination"></div> -->
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-7 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="production-of-parts"
@@ -555,16 +577,18 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInLeft">
           <br />
-          <div class="block__title">
-            Производство деталей
-            <br />
-            любой тиражности
-          </div>
-          <p>
-            Компания ООО «SCT» имеет возможность производства деталей и изделий
-            по собственным чертежам, а также по чертежам заказчика любой
-            тиражности на высокоточных станках с ЧПУ.
-          </p>
+          <article>
+            <h2 class="block__title">
+              Производство деталей
+              <br />
+              любой тиражности
+            </h2>
+            <p>
+              Компания ООО «SCT» имеет возможность производства деталей и
+              изделий по собственным чертежам, а также по чертежам заказчика
+              любой тиражности на высокоточных станках с ЧПУ.
+            </p>
+          </article>
           <div class="block__parts-production">
             <a
               href="assets/9.png"
@@ -593,9 +617,9 @@
           <div class="swiper-pagination"></div> -->
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-8 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="laboratory"
@@ -603,18 +627,20 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInRight">
           <br />
-          <div class="block__title">
-            Лабораторные исследования
-            <br />
-            и экспертиза
-          </div>
-          <p>
-            Компания ООО «SCT» имеет возможность проведения исследований по
-            определению химического состава материала, механических свойств
-            материала, определению твердости материала, подбору отечественных
-            аналогов иностранного материала с привлечением специалистов
-            профильных ведущих ВУЗов РФ.
-          </p>
+          <article>
+            <h2 class="block__title">
+              Лабораторные исследования
+              <br />
+              и экспертиза
+            </h2>
+            <p>
+              Компания ООО «SCT» имеет возможность проведения исследований по
+              определению химического состава материала, механических свойств
+              материала, определению твердости материала, подбору отечественных
+              аналогов иностранного материала с привлечением специалистов
+              профильных ведущих ВУЗов РФ.
+            </p>
+          </article>
           <div class="block__laboratory-tests">
             <a
               href="assets/2.png"
@@ -640,9 +666,9 @@
           <div class="swiper-pagination"></div> -->
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-9 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="inspection"
@@ -650,28 +676,30 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInLeft">
           <br />
-          <div class="block__title">
-            Инспекция напряженного
-            <br />
-            состояния металла
-          </div>
-          <p>
-            Компания ООО «SCT» имеет в своем портфолио уникальный прибор
-            отечественной разработки и производства по определению фактического
-            напряжённого состояния металла. Определение фактического
-            напряженного состояния металла наиболее актуально для нагруженных
-            конструкций фланцевых и шпилечных соединений, в которых понимание
-            фактического напряженного состояния каждой из шпилек, является
-            основным фактором, влияющим на надежности и долговечности
-            конструкции в целом.
-          </p>
-          <p>
-            На данный момент затяжка шпилек на наиболее ответственных местах
-            производится с помощью динамометрического ключа, значения которого в
-            свою очередь разнятся в зависимости от качества поверхности гайки и
-            фланца, смазки и т.д. и суммарная погрешность момента затяжки каждой
-            из шпилек может достигать 30%.
-          </p>
+          <article>
+            <h2 class="block__title">
+              Инспекция напряженного
+              <br />
+              состояния металла
+            </h2>
+            <p>
+              Компания ООО «SCT» имеет в своем портфолио уникальный прибор
+              отечественной разработки и производства по определению
+              фактического напряжённого состояния металла. Определение
+              фактического напряженного состояния металла наиболее актуально для
+              нагруженных конструкций фланцевых и шпилечных соединений, в
+              которых понимание фактического напряженного состояния каждой из
+              шпилек, является основным фактором, влияющим на надежности и
+              долговечности конструкции в целом.
+            </p>
+            <p>
+              На данный момент затяжка шпилек на наиболее ответственных местах
+              производится с помощью динамометрического ключа, значения которого
+              в свою очередь разнятся в зависимости от качества поверхности
+              гайки и фланца, смазки и т.д. и суммарная погрешность момента
+              затяжки каждой из шпилек может достигать 30%.
+            </p>
+          </article>
           <div class="photo-slider-wrap" id="photo-slider-7">
             <div class="photo-slider swiper-container">
               <div class="swiper-wrapper">
@@ -736,9 +764,9 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-10 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="expertise"
@@ -746,29 +774,30 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInRight">
           <br />
-          <div class="block__title">
-            Научно-техническая
-            <br />
-            экспертиза
-          </div>
-          <p>
-            В виду сложной геополитической ситуации, сложившейся вокруг РФ,
-            компания ООО «SCT» предлагает услуги по постоянной технической
-            поддержки бизнеса. В данные услуги входят:
-          </p>
-          <p></p>
-          <ul class="services__slide-list">
-            <li class="services__slide-item">
-              поддержка операционной деятельности в режиме 24/7 (моделирование,
-              расчеты, подготовка КД, решение нестандартных инженерных задач
-              заказчика и тд.);
-            </li>
-            <li class="services__slide-item">
-              подбор персонала под проекты заказчика для временного или
-              постоянного трудоустройства
-            </li>
-          </ul>
+          <article>
+            <h2 class="block__title">
+              Научно-техническая
+              <br />
+              экспертиза
+            </h2>
+            <p>
+              В виду сложной геополитической ситуации, сложившейся вокруг РФ,
+              компания ООО «SCT» предлагает услуги по постоянной технической
+              поддержки бизнеса. В данные услуги входят:
+            </p>
 
+            <ul class="services__slide-list">
+              <li class="services__slide-item">
+                поддержка операционной деятельности в режиме 24/7
+                (моделирование, расчеты, подготовка КД, решение нестандартных
+                инженерных задач заказчика и тд.);
+              </li>
+              <li class="services__slide-item">
+                подбор персонала под проекты заказчика для временного или
+                постоянного трудоустройства
+              </li>
+            </ul>
+          </article>
           <div class="photo-slider-wrap" id="photo-slider-8">
             <div class="photo-slider swiper-container">
               <div class="swiper-wrapper">
@@ -851,9 +880,9 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-11 block_no-title fp-section"
         data-fp-styles="null"
         data-anchor="staff"
@@ -861,17 +890,19 @@
         <div class="arrow-top"></div>
         <div class="block__content wow fadeInLeft">
           <br />
-          <div class="block__title">
-            Подбор персонала
-            <br />
-            для заказчика
-          </div>
-          <p>
-            Компания ООО «SCT» осуществляет поиск и подбор
-            высококвалифицированного персонала под требования заказчика в
-            кратчайшие сроки. Широкая сеть контактов в нефтегазовой индустрии
-            позволяет оперативно закрыть потребность заказчика в персонале.
-          </p>
+          <article>
+            <h2 class="block__title">
+              Подбор персонала
+              <br />
+              для заказчика
+            </h2>
+            <p>
+              Компания ООО «SCT» осуществляет поиск и подбор
+              высококвалифицированного персонала под требования заказчика в
+              кратчайшие сроки. Широкая сеть контактов в нефтегазовой индустрии
+              позволяет оперативно закрыть потребность заказчика в персонале.
+            </p>
+          </article>
           <div class="block__personnel-selection">
             <a
               href="assets/15.png"
@@ -891,18 +922,18 @@
           <div class="swiper-pagination"></div> -->
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
+      <section
         class="block block-12 fp-section"
         data-fp-styles="null"
         data-anchor="contacts"
       >
         <div class="contacts">
           <div class="page-title wow flipInX">
-            <div class="page-title__name">SCT</div>
-            <div class="page-title__subname">Нефтегазовый сервис</div>
-            <div class="page-title__years">Создана в 2019 году</div>
+            <p class="page-title__name">SCT</p>
+            <p class="page-title__subname">Нефтегазовый сервис</p>
+            <p class="page-title__years">Создана в 2019 году</p>
           </div>
           <br />
           <br />
@@ -941,7 +972,33 @@
                 required
               ></textarea>
 
+              <div class="container">
+                <div class="checkbox">
+                  <input type="checkbox" id="consent" />
+                  <label for="consent">
+                    <span class="checkbox__text">
+                      Даю согласие на обработку персональных данных в
+                      соответствии с
+                      <i>
+                        <a
+                          href="politics.html"
+                          class="checkbox__policy-reference"
+                          >Политикой обработки персональных данных</a
+                        ></i
+                      ></span
+                    ></label
+                  >
+                </div>
+              </div>
+
               <div class="form__buttons">
+                <input
+                  type="submit"
+                  value="Отправить"
+                  class="form__button"
+                  id="form__button"
+                  disabled
+                />
                 <button
                   class="form__button"
                   onclick="download('./files/Smartcompletion.docx')"
@@ -949,35 +1006,36 @@
                 >
                   Скачать реквизиты
                 </button>
-                <input type="submit" value="Отправить" class="form__button" />
               </div>
             </form>
-
-            <div class="footer">
-              <div>Компания «SCT»</div>
-              <span class="footer__span"> &nbsp; </span>
-              <a
-                href="https://yandex.by/maps/org/smart_komplishen_tekhnolodzhi/6480671362/?ll=37.539625%2C55.650150&z=17"
-                target="_blank"
-                class="footer__link"
-              >
-                г.Москва, ул. Бутлерова, д.17, офис 3165
-              </a>
-              <span class="footer__span"> &nbsp; </span>
-              <a href="tel:+74952221942" class="footer__link">
-                +7(495) 222-19-42
-              </a>
-              <span class="footer__span"> &nbsp; </span>
-              <a href="mailto:info@smartcompletion.com" class="footer__link">
-                info@smartcompletion.com
-              </a>
-            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer__link">Компания «SCT»</p>
+        <span class="footer__span"> &nbsp; </span>
+        <a href="politics.html" class="footer__link"
+          >Политика обработки персональных данных</a
+        >
+        <span class="footer__span"> &nbsp; </span>
+        <a
+          href="https://yandex.by/maps/org/smart_komplishen_tekhnolodzhi/6480671362/?ll=37.539625%2C55.650150&z=17"
+          target="_blank"
+          class="footer__link"
+        >
+          г.Москва, ул. Бутлерова, д.17, офис 3165
+        </a>
+        <span class="footer__span"> &nbsp; </span>
+        <a href="tel:+74952221942" class="footer__link"> +7(495) 222-19-42 </a>
+        <span class="footer__span"> &nbsp; </span>
+        <a href="mailto:info@smartcompletion.com" class="footer__link">
+          info@smartcompletion.com
+        </a>
+      </footer>
     </div>
 
-    <section class="alert" id="alert">
+    <div class="alert" id="alert">
       <div class="alert__container">
         <h2 class="alert__title" id="alert__title">
           Ваше сообщение успешно отправленно!
@@ -987,7 +1045,7 @@
         </p>
         <button class="alert__button" id="alert__button">ok</button>
       </div>
-    </section>
+    </div>
     <script src="assets/jquery.min.js"></script>
     <script src="assets/fullpage.min.js"></script>
     <script src="assets/swiper.min.js"></script>

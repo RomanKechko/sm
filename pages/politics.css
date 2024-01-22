@@ -1,0 +1,13 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/font.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks_politics/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/block/__content/block__content.css);
+@import url(../blocks_politics/politics/__title/politics__title.css);
+@import url(../blocks_politics/politics/__subtitle/politics__subtitle.css);
+@import url(../blocks_politics/politics/__requisites/politics__requisites.css);
+@import url(../blocks_politics/politics/__link/politics__link.css);

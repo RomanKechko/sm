@@ -1,0 +1,9 @@
+.checkbox__policy-reference {
+  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+.checkbox__policy-reference:hover {
+  opacity: 0.5;
+}

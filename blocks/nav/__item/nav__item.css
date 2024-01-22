@@ -6,7 +6,7 @@
   text-decoration: none;
   margin-right: 16px;
   margin-bottom: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.8);
   flex-basis: calc(50% - 8px);
   text-align: center;
@@ -20,7 +20,7 @@
 
 .nav__item:hover {
   background: rgba(255, 255, 255, 0.8);
-  color: #0E1B47;
+  color: #0e1b47;
 }
 
 .nav__item:nth-child(2n) {
@@ -31,7 +31,7 @@
   .nav__item {
     flex-basis: 100%;
     margin-right: 0;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 16px;
     height: 83px;
     padding: 10px;

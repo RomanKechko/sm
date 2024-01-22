@@ -104,3 +104,7 @@
 @import url(../blocks/alert/__button/alert__button.css);
 
 @import url(../blocks/links-image/links-image.css);
+
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__policy-refrence/chekbox__policy-reference.css);
+@import url(../blocks/checkbox/__text/checkbox__text.css);

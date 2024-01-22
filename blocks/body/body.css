@@ -1,9 +1,10 @@
 .body {
   padding: 0;
   margin: 0;
-  background-color: #041A3B;
+  background-color: #041a3b;
   font-size: 18px;
-  font-family:'regular', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "regular", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   color: #fff;
   min-width: 320px;
 }

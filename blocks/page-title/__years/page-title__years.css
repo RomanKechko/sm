@@ -1,5 +1,6 @@
 .page-title__years {
   font-size: 13px;
   line-height: 20px;
-letter-spacing: 0.15em;
+  letter-spacing: 0.15em;
+  margin: 0;
 }

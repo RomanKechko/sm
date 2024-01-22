@@ -1,7 +1,8 @@
 .page-title__subname {
   font-size: 22px;
+  font-weight: normal;
   line-height: 1;
   padding-bottom: 12px;
-  margin-bottom: 12px;
+  margin: 0 0 12px;
   border-bottom: 2px solid #ffffff;
 }
