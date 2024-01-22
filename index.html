@@ -11,13 +11,12 @@
     <title>Smartcompletion - компания в области нефтегазового сервиса</title>
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/index.css" />
-    <script defer src="main.js"></script>
-  </head>
+  <script defer src="main.js"></script></head>
 
   <body class="body">
     <div class="page fullpage-wrapper" id="page">
       <header class="header">
-        <a class="header__logo" href="index.html"> SMARTCOMPLETION </a>
+        <a class="header__logo" href="/sm/index.html"> SMARTCOMPLETION </a>
         <nav>
           <ul class="header__menu">
             <li class="header__item">
@@ -607,7 +606,10 @@
               data-caption=""
               class="block__parts-production_link"
             >
-              <img src="assets/16.png" class="block__parts-production_image" />
+              <img
+                src="assets/16.png"
+                class="block__parts-production_image"
+              />
             </a>
 
             <!-- <div class="swiper-button-next"></div>
@@ -969,24 +971,26 @@
                 placeholder="Введите сообщение"
                 required
               ></textarea>
-              <div>
-                <div class="container">
-                  <div class="checkbox">
-                    <input type="checkbox" id="consent" />
-                    <label for="consent">
-                      <span>
-                        Даю согласие на обработку персональных данных в
-                        соответствии с
-                        <i>
-                          <a href="politics.html" class="policy__reference"
-                            >Политикой обработки персональных данных</a
-                          ></i
-                        ></span
-                      ></label
-                    >
-                  </div>
+
+              <div class="container">
+                <div class="checkbox">
+                  <input type="checkbox" id="consent" />
+                  <label for="consent">
+                    <span class="checkbox__text">
+                      Даю согласие на обработку персональных данных в
+                      соответствии с
+                      <i>
+                        <a
+                          href="politics.html"
+                          class="checkbox__policy-reference"
+                          >Политикой обработки персональных данных</a
+                        ></i
+                      ></span
+                    ></label
+                  >
                 </div>
               </div>
+
               <div class="form__buttons">
                 <input
                   type="submit"
